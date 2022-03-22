@@ -5,7 +5,7 @@ function Contato() {
 
     function CadastrarUsuario(e) {
         e.preventDefault();
-        console.log(`Seu nome é ${nome}. 
+        alert(`Seu nome é ${nome}. 
     Seu email é ${email}. 
     O motivo do seu contato foi ${questions} 
     e você disse que ${faleMaisSobre}`);
