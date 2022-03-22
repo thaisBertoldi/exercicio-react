@@ -1,0 +1,15 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutParagrafos {
+    color: #0c081c;
+    font-size: 14px;
+    border-bottom: 1px solid #c0b2b2;
+    border-top: 1px solid #c0b2b2;
+    text-align: justify;
+    padding: 15px;
+}

@@ -1,0 +1,21 @@
+.logo {
+    width: 70px;
+}
+
+.header {
+    background-color: #4b2a53;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: #c0b2b2;
+    align-items: center;
+}
+
+.lista {
+    list-style: none; 
+    color: #c0b2b2;
+    display: flex;
+    flex-direction: row;
+    column-gap: 35px;
+    padding: 15px 0;
+}

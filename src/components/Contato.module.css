@@ -1,0 +1,38 @@
+.contatoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.contatoFormulario {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    width: 50%;  
+}
+
+.contatoInput {
+    height: 30px;
+}
+
+.contatoSelect {
+    height: 35px;
+}
+
+.contatoTextArea {
+    height: 100px;
+}
+
+.contatoCadastrar {
+    width: 300px;
+    height: 30px; 
+}
+
+.contatoCadastrarDiv {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 30px 0;
+}
