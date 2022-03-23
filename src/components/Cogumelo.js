@@ -1,20 +1,21 @@
 import styles from './Cogumelo.module.css'
-import Logo from "./Logo";
+import Image from "./Image";
+import esquilo from '../images/esquilo.png'
 
 function Cogumelo() {
     return (
         <>
             <div className={styles.cogumelo}>
-                <Logo />
-                <span>Primeiro Cogumelo</span>
+                <Image src={esquilo} alt="Esquilo"/>
+                <span>Primeiro esquilo</span>
             </div>
             <div className={styles.cogumelo}>
-                <Logo />
-                <span>Segundo Cogumelo</span>
+                <Image src={esquilo} alt="Esquilo"/>
+                <span>Segundo esquilo</span>
             </div>
             <div className={styles.cogumelo}>
-                <Logo />
-                <span>Terceiro Cogumelo</span>
+                <Image src={esquilo} alt="Esquilo"/>
+                <span>Terceiro esquilo</span>
             </div>
         </>
     )
