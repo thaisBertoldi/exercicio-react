@@ -8,12 +8,10 @@
     text-align: center;
 }
 
-.homeSpan {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    column-gap: 10px;
-    margin-left: 30px;
+.listaCogumelos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
 }
 
 .homeParagrafos {

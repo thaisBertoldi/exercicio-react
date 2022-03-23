@@ -1,0 +1,7 @@
+.cogumelo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    margin-left: 30px;
+}
